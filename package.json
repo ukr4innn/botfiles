@@ -1,12 +1,13 @@
 {
   "name": "botfiles",
   "version": "1.0.0",
-  "main": "bot.js",
+  "main": "bot.js", // Altere para server.js se necessário
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js" // Comando que o Replit usará para iniciar
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "discord.js": "^14.0.0" // ou outras libs que você usa
+    "express": "^4.18.2", // Exemplo de dependência
+    "discord.js": "^14.0.0", // Adicione outras libs que você usa
+    "axios": "^1.6.2" // Exemplo adicional
   }
 }
